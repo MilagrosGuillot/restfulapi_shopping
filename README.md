@@ -7,6 +7,8 @@ Además, la persistencia de datos se maneja a través de JPA, con repositorios q
 El archivo application.yml se utiliza para la configuración de la aplicación, con perfiles específicos para diferentes entornos como QA, producción, desarrollo, entre otros.
 Esto permite una fácil configuración y despliegue en diferentes ambientes.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 📍 GET | /findAllLocals
  - Obtiene una lista de objetos Local, donde cada objeto representa un local dentro de un Shopping.
 
