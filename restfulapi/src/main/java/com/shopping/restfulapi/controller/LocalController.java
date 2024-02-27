@@ -42,7 +42,7 @@ public class LocalController {
     }
 
     @PostMapping("/saveLocal")
-    public Local saveLocal(@Valid @RequestBody Local local){ //Al ser un metodo post va a llevar el resquestBody, osea un body que es el obj json que nos mandaran. Va a hacer de tipo local. El objeto json que va a venir como requestBody se va a mapear a un objeto de tipo local
+    public Local saveLocal(@Valid @RequestBody Local local){
         return localService.saveLocal(local); //
     }
 
