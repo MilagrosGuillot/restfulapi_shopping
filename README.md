@@ -8,6 +8,16 @@ El archivo application.yml se utiliza para la configuración de la aplicación, 
 Esto permite una fácil configuración y despliegue en diferentes ambientes.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Listado de Entidades
+**locals** (ED)
+ - id
+ - name
+ - floor
+ - code
+
+
+
+### ENDPOINTS
 
 📍 GET | /findAllLocals
  - Obtiene una lista de objetos Local, donde cada objeto representa un local dentro de un Shopping.
